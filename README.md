@@ -4,7 +4,7 @@ GitHub Actions GitHub Actions: https://github.com/vijaya1123/SeleniumEcommerceFr
 🚀 Overview
 Industrial-standard Selenium TestNG hybrid automation framework for SauceDemo with data-driven testing, parallel execution, CI/CD pipeline, and enterprise-level design patterns.
 
-Repository: lak2020/selenium-java-ui-ecommerce--automation-framework
+Repository: https://github.com/vijaya1123/SeleniumEcommerceFrmework.git
 
 📊 Allure Report
 View the latest test results: Allure Report
