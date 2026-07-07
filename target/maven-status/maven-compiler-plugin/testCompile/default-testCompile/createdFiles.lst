@@ -1,0 +1,4 @@
+com\seleniumui\framework\tests\CheckoutTest.class
+com\seleniumui\framework\tests\SessionTest.class
+com\seleniumui\framework\tests\ProductTest.class
+com\seleniumui\framework\tests\LoginTest.class
