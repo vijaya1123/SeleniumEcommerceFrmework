@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.335" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="32.794" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire65219192778678416\surefirebooter-20260706162038247_3.jar C:\Users\hp\AppData\Local\Temp\surefire65219192778678416 2026-07-06T16-20-38_021-jvmRun1 surefire-20260706162038247_1tmp surefire_0-20260706162038247_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire16782167935035661171\surefirebooter-20260711123736286_3.jar C:\Users\hp\AppData\Local\Temp\surefire16782167935035661171 2026-07-11T12-37-36_018-jvmRun1 surefire-20260711123736286_1tmp surefire_0-20260711123736286_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hp\eclipse-workspace4\SeleniumJavaEcommerceProject8May\target\test-classes;C:\Users\hp\eclipse-workspace4\SeleniumJavaEcommerceProject8May\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\hp\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\hp\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\hp\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\hp\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\hp\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\hp\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\hp\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\hp\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.0\log4j-core-2.23.0.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.0\log4j-api-2.23.0.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.23.0\log4j-slf4j2-impl-2.23.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\hp\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\hp\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\hp\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\hp\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
     <property name="allure.results.directory" value="C:\Users\hp\eclipse-workspace4\SeleniumJavaEcommerceProject8May\target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire65219192778678416\surefirebooter-20260706162038247_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire16782167935035661171\surefirebooter-20260711123736286_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
@@ -60,237 +60,237 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testValidLogin" classname="com.seleniumui.framework.tests.LoginTest" time="0.17">
-    <system-out><![CDATA[2026-07-06 16:20:43 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-2026-07-06 16:20:43 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-2026-07-06 16:20:43 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.utils.ConfigManager - Configuration loaded successfully from: src/main/resources/config/config.properties
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Started
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - Environment: QA
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - Browser: chrome
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - Headless Mode: true
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.base.BaseTest - Screenshot directory created: target/screenshots/
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST SUITE STARTED: Smoke Tests
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.listeners.TestListener - Total Tests: 8
-2026-07-06 16:20:44 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:44 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:20:44 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:20:46 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:20:46 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:20:48 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:20:48 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:20:50 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 40
-2026-07-06 16:20:50 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
-2026-07-06 16:20:50 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:20:50 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:20:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testValidLogin
-2026-07-06 16:20:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Starting valid login test
-2026-07-06 16:20:51 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:20:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAddProductToCart
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing add product to cart
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Valid login test completed successfully
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testValidLogin
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1497 ms
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+  <testcase name="testValidLogin" classname="com.seleniumui.framework.tests.LoginTest" time="0.335">
+    <system-out><![CDATA[2026-07-11 12:37:42 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-11 12:37:42 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-11 12:37:42 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.utils.ConfigManager - Configuration loaded successfully from: src/main/resources/config/config.properties
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Started
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - Environment: QA
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - Browser: chrome
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - Headless Mode: true
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.base.BaseTest - Screenshot directory created: target/screenshots/
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST SUITE STARTED: Smoke Tests
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.listeners.TestListener - Total Tests: 8
+2026-07-11 12:37:42 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:42 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:37:42 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:37:46 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:37:46 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:37:48 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:37:48 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:37:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-11 12:37:51 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 42
+2026-07-11 12:37:51 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:37:51 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:37:52 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:52 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testValidLogin
+2026-07-11 12:37:52 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:52 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Starting valid login test
+2026-07-11 12:37:52 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:37:52 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAddProductToCart
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing add product to cart
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Valid login test completed successfully
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testValidLogin
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1459 ms
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
 ]]></system-out>
-    <system-err><![CDATA[Jul 06, 2026 4:20:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 11, 2026 12:37:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:20:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2026 12:37:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:20:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 11, 2026 12:37:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Jul 06, 2026 4:20:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testLoginPageLoads" classname="com.seleniumui.framework.tests.LoginTest" time="0.095">
-    <system-out><![CDATA[2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessCartWithoutLogin
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 40
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:21:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 40
-2026-07-06 16:21:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testLoginPageLoads
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing login page loads
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Login page loads test passed
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testLoginPageLoads
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 83 ms
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-]]></system-out>
-    <system-err><![CDATA[Jul 06, 2026 4:21:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:21:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 11, 2026 12:37:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testAddProductToCart" classname="com.seleniumui.framework.tests.ProductTest" time="0.632">
-    <system-out><![CDATA[2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testValidLogin
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 40
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Add product to cart test passed
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAddProductToCart
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 621 ms
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+  <testcase name="testLoginPageLoads" classname="com.seleniumui.framework.tests.LoginTest" time="0.083">
+    <system-out><![CDATA[2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessCartWithoutLogin
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:38:03 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:38:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-11 12:38:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testLoginPageLoads
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing login page loads
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Login page loads test passed
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testLoginPageLoads
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 80 ms
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
 ]]></system-out>
-  </testcase>
-  <testcase name="testSortByPriceLowToHigh" classname="com.seleniumui.framework.tests.ProductTest" time="0.383">
-    <system-out><![CDATA[2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testLoginPageLoads
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 40
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:21:03 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:21:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 40
-2026-07-06 16:21:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testSortByPriceLowToHigh
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing sort by price low to high
-2026-07-06 16:21:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Sorting products by value: lohi
-2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Sort by price low to high test passed
-2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testSortByPriceLowToHigh
-2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 372 ms
-2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-]]></system-out>
-    <system-err><![CDATA[Jul 06, 2026 4:21:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 11, 2026 12:38:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:21:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 11, 2026 12:38:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testRemoveProductFromCart" classname="com.seleniumui.framework.tests.ProductTest" time="4.199">
-    <system-out><![CDATA[2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testSortByPriceLowToHigh
-2026-07-06 16:21:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 40
-2026-07-06 16:21:09 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Remove product from cart test passed
-2026-07-06 16:21:09 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:09 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testRemoveProductFromCart
-2026-07-06 16:21:09 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 10392 ms
-2026-07-06 16:21:09 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+  <testcase name="testAddProductToCart" classname="com.seleniumui.framework.tests.ProductTest" time="0.919">
+    <system-out><![CDATA[2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testValidLogin
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:37:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Add product to cart test passed
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAddProductToCart
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 909 ms
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
 ]]></system-out>
   </testcase>
-  <testcase name="testAccessInventoryWithoutLogin" classname="com.seleniumui.framework.tests.SessionTest" time="0.407">
-    <system-out><![CDATA[2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAddProductToCart
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:20:53 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:20:54 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:20:54 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 40
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessInventoryWithoutLogin
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:55 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing access inventory without login
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Access inventory without login test passed
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessInventoryWithoutLogin
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 400 ms
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+  <testcase name="testSortByPriceLowToHigh" classname="com.seleniumui.framework.tests.ProductTest" time="0.288">
+    <system-out><![CDATA[2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testLoginPageLoads
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:38:04 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:38:05 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:38:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-11 12:38:05 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testSortByPriceLowToHigh
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing sort by price low to high
+2026-07-11 12:38:06 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Sorting products by value: lohi
+2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Sort by price low to high test passed
+2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testSortByPriceLowToHigh
+2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 288 ms
+2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
 ]]></system-out>
-    <system-err><![CDATA[Jul 06, 2026 4:20:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 11, 2026 12:38:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:20:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Jul 06, 2026 4:20:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:20:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="testAccessCartWithoutLogin" classname="com.seleniumui.framework.tests.SessionTest" time="0.342">
-    <system-out><![CDATA[2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testCompleteCheckout
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 40
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testRemoveProductFromCart
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing remove product from cart
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
-2026-07-06 16:20:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Removed product 'Sauce Labs Backpack' from cart
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 40
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessCartWithoutLogin
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing access cart without login
-2026-07-06 16:21:00 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Access cart without login test passed
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessCartWithoutLogin
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 330 ms
-2026-07-06 16:21:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-]]></system-out>
-    <system-err><![CDATA[Jul 06, 2026 4:21:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:21:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 11, 2026 12:38:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testCompleteCheckout" classname="com.seleniumui.framework.tests.CheckoutTest" time="1.891">
-    <system-out><![CDATA[2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessInventoryWithoutLogin
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Logged in successfully for checkout test
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testCompleteCheckout
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Starting complete checkout test
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
-2026-07-06 16:20:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
-2026-07-06 16:20:57 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
-2026-07-06 16:20:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
-2026-07-06 16:20:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Clicking Checkout button
-2026-07-06 16:20:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutInfoPage initialized
-2026-07-06 16:20:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
-2026-07-06 16:20:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutOverviewPage initialized
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Clicking Finish button
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutCompletePage initialized
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Complete checkout test passed successfully
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testCompleteCheckout
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1887 ms
-2026-07-06 16:20:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+  <testcase name="testRemoveProductFromCart" classname="com.seleniumui.framework.tests.ProductTest" time="3.559">
+    <system-out><![CDATA[2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testSortByPriceLowToHigh
+2026-07-11 12:38:07 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-11 12:38:10 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Remove product from cart test passed
+2026-07-11 12:38:10 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:10 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testRemoveProductFromCart
+2026-07-11 12:38:10 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 10444 ms
+2026-07-11 12:38:10 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
 ]]></system-out>
-    <system-err><![CDATA[Jul 06, 2026 4:20:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  </testcase>
+  <testcase name="testAccessInventoryWithoutLogin" classname="com.seleniumui.framework.tests.SessionTest" time="0.355">
+    <system-out><![CDATA[2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAddProductToCart
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 42
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:37:54 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 42
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessInventoryWithoutLogin
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing access inventory without login
+2026-07-11 12:37:56 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Access inventory without login test passed
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessInventoryWithoutLogin
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 350 ms
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+]]></system-out>
+    <system-err><![CDATA[Jul 11, 2026 12:37:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 149
-Jul 06, 2026 4:20:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 11, 2026 12:37:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 11, 2026 12:37:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 11, 2026 12:37:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAccessCartWithoutLogin" classname="com.seleniumui.framework.tests.SessionTest" time="0.611">
+    <system-out><![CDATA[2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testCompleteCheckout
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testRemoveProductFromCart
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing remove product from cart
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-11 12:38:00 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Removed product 'Sauce Labs Backpack' from cart
+2026-07-11 12:38:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-11 12:38:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:38:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessCartWithoutLogin
+2026-07-11 12:38:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:01 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing access cart without login
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Access cart without login test passed
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessCartWithoutLogin
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 614 ms
+2026-07-11 12:38:02 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+]]></system-out>
+    <system-err><![CDATA[Jul 11, 2026 12:38:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 11, 2026 12:38:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCompleteCheckout" classname="com.seleniumui.framework.tests.CheckoutTest" time="2.013">
+    <system-out><![CDATA[2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessInventoryWithoutLogin
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 42
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Logged in successfully for checkout test
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testCompleteCheckout
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Starting complete checkout test
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
+2026-07-11 12:37:57 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Clicking Checkout button
+2026-07-11 12:37:58 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutInfoPage initialized
+2026-07-11 12:37:58 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 42
+2026-07-11 12:37:58 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutOverviewPage initialized
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Clicking Finish button
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutCompletePage initialized
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Complete checkout test passed successfully
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testCompleteCheckout
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 2005 ms
+2026-07-11 12:37:59 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+]]></system-out>
+    <system-err><![CDATA[Jul 11, 2026 12:37:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jul 11, 2026 12:37:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 149.0.7827.201. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
