@@ -10057,3 +10057,464 @@ java.net.UnknownHostException: googlechromelabs.github.io
 2026-07-11 12:38:10 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
 2026-07-11 12:38:10 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Completed
 2026-07-11 12:38:10 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:34:20 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-12 09:34:20 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-12 09:34:20 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-12 09:34:20 [main] INFO  com.seleniumui.framework.utils.ConfigManager - Configuration loaded successfully from: src/main/resources/config/config.properties
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Started
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - Environment: QA
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - Browser: chrome
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - Headless Mode: true
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.base.BaseTest - Screenshot directory created: target/screenshots/
+2026-07-12 09:34:21 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:22 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST SUITE STARTED: All Tests
+2026-07-12 09:34:22 [main] INFO  com.seleniumui.framework.listeners.TestListener - Total Tests: 12
+2026-07-12 09:34:22 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:22 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:34:26 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:34:29 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:34:34 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:34:34 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:34:35 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:35 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testValidLogin
+2026-07-12 09:34:35 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:35 [main] INFO  com.seleniumui.framework.base.BaseTest - Starting valid login test
+2026-07-12 09:34:35 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:34:37 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.base.BaseTest - Valid login test completed successfully
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testValidLogin
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 3528 ms
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testValidLogin
+2026-07-12 09:34:38 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:34:39 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:34:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:34:41 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:34:42 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:34:42 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testValidLoginWithMultipleUsers
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing login with username: standard_user
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.base.BaseTest - Login successful for user: standard_user
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testValidLoginWithMultipleUsers
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 957 ms
+2026-07-12 09:34:43 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:44 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testValidLoginWithMultipleUsers
+2026-07-12 09:34:44 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:34:44 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:34:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:34:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:34:46 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:34:46 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:34:47 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:47 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testValidLoginWithMultipleUsers
+2026-07-12 09:34:47 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:47 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing login with username: problem_user
+2026-07-12 09:34:47 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.base.BaseTest - Login successful for user: problem_user
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testValidLoginWithMultipleUsers
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 942 ms
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testValidLoginWithMultipleUsers
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:34:48 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:34:48 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:34:49 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testLoginPageLoads
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing login page loads
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.BaseTest - Login page loads test passed
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testLoginPageLoads
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 190 ms
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testLoginPageLoads
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:34:51 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:34:51 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:34:52 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:34:53 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:34:53 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:34:53 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAddProductToCart
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing add product to cart
+2026-07-12 09:34:55 [main] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.base.BaseTest - Add product to cart test passed
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAddProductToCart
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 665 ms
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAddProductToCart
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:34:56 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:34:56 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:34:57 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:34:58 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:34:58 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:34:58 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testRemoveProductFromCart
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing remove product from cart
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-12 09:34:59 [main] INFO  com.seleniumui.framework.base.BasePage - Removed product 'Sauce Labs Backpack' from cart
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Remove product from cart test passed
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testRemoveProductFromCart
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 10301 ms
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testRemoveProductFromCart
+2026-07-12 09:35:09 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:10 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:11 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:11 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testSortByPriceLowToHigh
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing sort by price low to high
+2026-07-12 09:35:12 [main] INFO  com.seleniumui.framework.base.BasePage - Sorting products by value: lohi
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.base.BaseTest - Sort by price low to high test passed
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testSortByPriceLowToHigh
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 279 ms
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testSortByPriceLowToHigh
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:13 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:13 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:13 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:15 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:15 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:15 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testSortByPriceHighToLow
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing sort by price high to low
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.BasePage - Sorting products by value: hilo
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.BaseTest - Sort by price high to low test passed
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testSortByPriceHighToLow
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 245 ms
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testSortByPriceHighToLow
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:16 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:17 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:18 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:18 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:18 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAllProductsDisplayed
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing all products are displayed
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.BaseTest - Product count: 6
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.BaseTest - All products displayed test passed
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAllProductsDisplayed
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 23 ms
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAllProductsDisplayed
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:19 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:19 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:20 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:21 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:21 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:21 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BaseTest - Logged in successfully for checkout test
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testCompleteCheckout
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BaseTest - Starting complete checkout test
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
+2026-07-12 09:35:22 [main] INFO  com.seleniumui.framework.base.BasePage - Clicking Checkout button
+2026-07-12 09:35:23 [main] INFO  com.seleniumui.framework.base.BasePage - CheckoutInfoPage initialized
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.BasePage - CheckoutOverviewPage initialized
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.BasePage - Clicking Finish button
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.BasePage - CheckoutCompletePage initialized
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.BaseTest - Complete checkout test passed successfully
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testCompleteCheckout
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 2064 ms
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testCompleteCheckout
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:24 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:24 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:25 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessInventoryWithoutLogin
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing access inventory without login
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.BaseTest - Access inventory without login test passed
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessInventoryWithoutLogin
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 313 ms
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessInventoryWithoutLogin
+2026-07-12 09:35:26 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:27 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:28 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:28 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessCartWithoutLogin
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing access cart without login
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.base.BaseTest - Access cart without login test passed
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessCartWithoutLogin
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 350 ms
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessCartWithoutLogin
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:29 [main] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:35:29 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:35:30 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:35:30 [main] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 1
+2026-07-12 09:35:30 [main] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:35:31 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:31 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testSessionPersistsOnRefresh
+2026-07-12 09:35:31 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:31 [main] INFO  com.seleniumui.framework.base.BaseTest - Testing session persistence on page refresh
+2026-07-12 09:35:31 [main] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.base.BaseTest - Session persistence on refresh test passed
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testSessionPersistsOnRefresh
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1282 ms
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testSessionPersistsOnRefresh
+2026-07-12 09:35:32 [main] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 1
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST SUITE FINISHED: All Tests
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.listeners.TestListener - Passed Tests: 13
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.listeners.TestListener - Failed Tests: 0
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.listeners.TestListener - Skipped Tests: 0
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Completed
+2026-07-12 09:35:33 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:36:08 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-12 09:36:08 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-12 09:36:08 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.utils.ConfigManager - Configuration loaded successfully from: src/main/resources/config/config.properties
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Started
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Environment: QA
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Browser: chrome
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Headless Mode: true
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.base.BaseTest - Screenshot directory created: target/screenshots/
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST SUITE STARTED: Smoke Tests
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - Total Tests: 8
+2026-07-12 09:36:09 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:09 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:09 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:10 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:10 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:11 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:11 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:13 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-12 09:36:13 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:13 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 42
+2026-07-12 09:36:13 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:14 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:14 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testValidLogin
+2026-07-12 09:36:14 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:14 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Starting valid login test
+2026-07-12 09:36:14 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:14 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAddProductToCart
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing add product to cart
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Valid login test completed successfully
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testValidLogin
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1629 ms
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testValidLogin
+2026-07-12 09:36:15 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Add product to cart test passed
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAddProductToCart
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1005 ms
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAddProductToCart
+2026-07-12 09:36:16 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 42
+2026-07-12 09:36:17 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:17 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:17 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:18 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:18 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-12 09:36:18 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 42
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessInventoryWithoutLogin
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:19 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing access inventory without login
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Access inventory without login test passed
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessInventoryWithoutLogin
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 1117 ms
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessInventoryWithoutLogin
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Logged in successfully for checkout test
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 42
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testCompleteCheckout
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Starting complete checkout test
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:20 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Navigating to cart
+2026-07-12 09:36:21 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CartPage initialized
+2026-07-12 09:36:21 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Clicking Checkout button
+2026-07-12 09:36:21 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutInfoPage initialized
+2026-07-12 09:36:21 [TestNG-test-Smoke Tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:22 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 42
+2026-07-12 09:36:22 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:22 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutOverviewPage initialized
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Clicking Finish button
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - CheckoutCompletePage initialized
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Complete checkout test passed successfully
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testCompleteCheckout
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 3387 ms
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testCompleteCheckout
+2026-07-12 09:36:23 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testRemoveProductFromCart
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Testing remove product from cart
+2026-07-12 09:36:24 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Added product 'Sauce Labs Backpack' to cart
+2026-07-12 09:36:25 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:25 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BasePage - Removed product 'Sauce Labs Backpack' from cart
+2026-07-12 09:36:26 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-12 09:36:26 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testAccessCartWithoutLogin
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing access cart without login
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Access cart without login test passed
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testAccessCartWithoutLogin
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 530 ms
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testAccessCartWithoutLogin
+2026-07-12 09:36:27 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-12 09:36:28 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:28 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:28 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:29 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-12 09:36:29 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testLoginPageLoads
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing login page loads
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Login page loads test passed
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testLoginPageLoads
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 104 ms
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testLoginPageLoads
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Initializing chrome browser. Headless mode: true
+2026-07-12 09:36:30 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
+2026-07-12 09:36:31 [TestNG-test-Smoke Tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\hp\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-12 09:36:32 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - WebDriver initialized successfully. Thread ID: 41
+2026-07-12 09:36:32 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Navigating to: https://www.saucedemo.com/
+2026-07-12 09:36:32 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - LoginPage initialized
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - InventoryPage initialized
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Logged in for product test
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST STARTED: testSortByPriceLowToHigh
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Testing sort by price low to high
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BasePage - Sorting products by value: lohi
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Sort by price low to high test passed
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testSortByPriceLowToHigh
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 324 ms
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testSortByPriceLowToHigh
+2026-07-12 09:36:33 [TestNG-test-Smoke Tests-1] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 41
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Remove product from cart test passed
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - TEST PASSED: testRemoveProductFromCart
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - Duration: 11416 ms
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.BaseTest - Test PASSED: testRemoveProductFromCart
+2026-07-12 09:36:35 [TestNG-test-Smoke Tests-2] INFO  com.seleniumui.framework.base.DriverFactory - Quitting WebDriver. Thread ID: 42
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.listeners.TestListener - TEST SUITE FINISHED: Smoke Tests
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.listeners.TestListener - Passed Tests: 8
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.listeners.TestListener - Failed Tests: 0
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.listeners.TestListener - Skipped Tests: 0
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.listeners.TestListener - ========================================
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.base.BaseTest - Test Suite Execution Completed
+2026-07-12 09:36:36 [main] INFO  com.seleniumui.framework.base.BaseTest - ========================================

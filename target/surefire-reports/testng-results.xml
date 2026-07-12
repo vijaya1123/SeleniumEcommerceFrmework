@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-11T12:37:42 IST" name="Smoke Test Suite" finished-at="2026-07-11T12:38:10 IST" duration-ms="27972">
+  <suite started-at="2026-07-12T09:36:09 IST" name="Smoke Test Suite" finished-at="2026-07-12T09:36:36 IST" duration-ms="26643">
     <groups>
       <group name="regression">
-        <method signature="CheckoutTest.testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15]" name="testCompleteCheckout" class="com.seleniumui.framework.tests.CheckoutTest"/>
-        <method signature="LoginTest.testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" name="testValidLogin" class="com.seleniumui.framework.tests.LoginTest"/>
-        <method signature="ProductTest.testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" name="testAddProductToCart" class="com.seleniumui.framework.tests.ProductTest"/>
-        <method signature="SessionTest.testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" name="testAccessInventoryWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
-        <method signature="ProductTest.testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" name="testRemoveProductFromCart" class="com.seleniumui.framework.tests.ProductTest"/>
-        <method signature="SessionTest.testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" name="testAccessCartWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
-        <method signature="LoginTest.testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" name="testLoginPageLoads" class="com.seleniumui.framework.tests.LoginTest"/>
-        <method signature="ProductTest.testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" name="testSortByPriceLowToHigh" class="com.seleniumui.framework.tests.ProductTest"/>
+        <method signature="CheckoutTest.testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a]" name="testCompleteCheckout" class="com.seleniumui.framework.tests.CheckoutTest"/>
+        <method signature="LoginTest.testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" name="testValidLogin" class="com.seleniumui.framework.tests.LoginTest"/>
+        <method signature="ProductTest.testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" name="testAddProductToCart" class="com.seleniumui.framework.tests.ProductTest"/>
+        <method signature="SessionTest.testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" name="testAccessInventoryWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
+        <method signature="ProductTest.testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" name="testRemoveProductFromCart" class="com.seleniumui.framework.tests.ProductTest"/>
+        <method signature="SessionTest.testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" name="testAccessCartWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
+        <method signature="LoginTest.testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" name="testLoginPageLoads" class="com.seleniumui.framework.tests.LoginTest"/>
+        <method signature="ProductTest.testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" name="testSortByPriceLowToHigh" class="com.seleniumui.framework.tests.ProductTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="CheckoutTest.testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15]" name="testCompleteCheckout" class="com.seleniumui.framework.tests.CheckoutTest"/>
-        <method signature="LoginTest.testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" name="testValidLogin" class="com.seleniumui.framework.tests.LoginTest"/>
-        <method signature="ProductTest.testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" name="testAddProductToCart" class="com.seleniumui.framework.tests.ProductTest"/>
-        <method signature="SessionTest.testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" name="testAccessInventoryWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
-        <method signature="ProductTest.testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" name="testRemoveProductFromCart" class="com.seleniumui.framework.tests.ProductTest"/>
-        <method signature="SessionTest.testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" name="testAccessCartWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
-        <method signature="LoginTest.testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" name="testLoginPageLoads" class="com.seleniumui.framework.tests.LoginTest"/>
-        <method signature="ProductTest.testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" name="testSortByPriceLowToHigh" class="com.seleniumui.framework.tests.ProductTest"/>
+        <method signature="CheckoutTest.testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a]" name="testCompleteCheckout" class="com.seleniumui.framework.tests.CheckoutTest"/>
+        <method signature="LoginTest.testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" name="testValidLogin" class="com.seleniumui.framework.tests.LoginTest"/>
+        <method signature="ProductTest.testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" name="testAddProductToCart" class="com.seleniumui.framework.tests.ProductTest"/>
+        <method signature="SessionTest.testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" name="testAccessInventoryWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
+        <method signature="ProductTest.testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" name="testRemoveProductFromCart" class="com.seleniumui.framework.tests.ProductTest"/>
+        <method signature="SessionTest.testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" name="testAccessCartWithoutLogin" class="com.seleniumui.framework.tests.SessionTest"/>
+        <method signature="LoginTest.testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" name="testLoginPageLoads" class="com.seleniumui.framework.tests.LoginTest"/>
+        <method signature="ProductTest.testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" name="testSortByPriceLowToHigh" class="com.seleniumui.framework.tests.ProductTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-07-11T12:37:42 IST" name="Smoke Tests" finished-at="2026-07-11T12:38:10 IST" duration-ms="27972">
+    <test started-at="2026-07-12T09:36:09 IST" name="Smoke Tests" finished-at="2026-07-12T09:36:36 IST" duration-ms="26643">
       <class name="com.seleniumui.framework.tests.ProductTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:37:42 IST" name="setUp" finished-at="2026-07-11T12:37:51 IST" duration-ms="8781" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:09 IST" name="setUp" finished-at="2026-07-12T09:36:14 IST" duration-ms="4727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,26 +38,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:37:51 IST" name="loginAndSetup" finished-at="2026-07-11T12:37:53 IST" duration-ms="1248" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:14 IST" name="loginAndSetup" finished-at="2026-07-12T09:36:15 IST" duration-ms="1420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:37:53 IST" name="testAddProductToCart" finished-at="2026-07-11T12:37:54 IST" duration-ms="909" status="PASS">
+        <test-method signature="testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:15 IST" name="testAddProductToCart" finished-at="2026-07-12T09:36:16 IST" duration-ms="1005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:37:54 IST" name="tearDown" finished-at="2026-07-11T12:37:54 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:16 IST" name="tearDown" finished-at="2026-07-12T09:36:17 IST" duration-ms="437" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=ProductTest.testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@193bb809] output={null}]]]>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=ProductTest.testAddProductToCart()[pri:1, instance:com.seleniumui.framework.tests.ProductTest@581b1c08] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:37:57 IST" name="setUp" finished-at="2026-07-11T12:37:59 IST" duration-ms="1969" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:20 IST" name="setUp" finished-at="2026-07-12T09:36:22 IST" duration-ms="1822" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:37:59 IST" name="loginAndSetup" finished-at="2026-07-11T12:38:00 IST" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:22 IST" name="loginAndSetup" finished-at="2026-07-12T09:36:24 IST" duration-ms="1814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:38:00 IST" name="testRemoveProductFromCart" finished-at="2026-07-11T12:38:10 IST" duration-ms="10444" status="PASS">
+        <test-method signature="testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:24 IST" name="testRemoveProductFromCart" finished-at="2026-07-12T09:36:35 IST" duration-ms="11416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveProductFromCart -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:38:04 IST" name="setUp" finished-at="2026-07-11T12:38:06 IST" duration-ms="1596" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:30 IST" name="setUp" finished-at="2026-07-12T09:36:32 IST" duration-ms="2119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,30 +87,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:38:06 IST" name="loginAndSetup" finished-at="2026-07-11T12:38:06 IST" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:32 IST" name="loginAndSetup" finished-at="2026-07-12T09:36:33 IST" duration-ms="1014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:38:06 IST" name="testSortByPriceLowToHigh" finished-at="2026-07-11T12:38:07 IST" duration-ms="288" status="PASS">
+        <test-method signature="testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:33 IST" name="testSortByPriceLowToHigh" finished-at="2026-07-12T09:36:33 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:38:07 IST" name="tearDown" finished-at="2026-07-11T12:38:07 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:33 IST" name="tearDown" finished-at="2026-07-12T09:36:34 IST" duration-ms="338" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSortByPriceLowToHigh status=SUCCESS method=ProductTest.testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@193bb809] output={null}]]]>
+                <![CDATA[[TestResult name=testSortByPriceLowToHigh status=SUCCESS method=ProductTest.testSortByPriceLowToHigh()[pri:3, instance:com.seleniumui.framework.tests.ProductTest@581b1c08] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@193bb809]" started-at="2026-07-11T12:38:10 IST" name="tearDown" finished-at="2026-07-11T12:38:10 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.ProductTest@581b1c08]" started-at="2026-07-12T09:36:35 IST" name="tearDown" finished-at="2026-07-12T09:36:36 IST" duration-ms="309" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRemoveProductFromCart status=SUCCESS method=ProductTest.testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@193bb809] output={null}]]]>
+                <![CDATA[[TestResult name=testRemoveProductFromCart status=SUCCESS method=ProductTest.testRemoveProductFromCart()[pri:2, instance:com.seleniumui.framework.tests.ProductTest@581b1c08] output={null}]]]>
               </value>
             </param>
           </params>
@@ -119,7 +119,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.seleniumui.framework.tests.ProductTest -->
       <class name="com.seleniumui.framework.tests.CheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15]" started-at="2026-07-11T12:37:53 IST" name="setUp" finished-at="2026-07-11T12:37:56 IST" duration-ms="2765" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a]" started-at="2026-07-12T09:36:16 IST" name="setUp" finished-at="2026-07-12T09:36:19 IST" duration-ms="2852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,19 +130,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15]" started-at="2026-07-11T12:37:56 IST" name="loginAndSetup" finished-at="2026-07-11T12:37:57 IST" duration-ms="787" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a]" started-at="2026-07-12T09:36:19 IST" name="loginAndSetup" finished-at="2026-07-12T09:36:20 IST" duration-ms="1164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15]" started-at="2026-07-11T12:37:57 IST" name="testCompleteCheckout" finished-at="2026-07-11T12:37:59 IST" duration-ms="2005" status="PASS">
+        <test-method signature="testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a]" started-at="2026-07-12T09:36:20 IST" name="testCompleteCheckout" finished-at="2026-07-12T09:36:23 IST" duration-ms="3387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompleteCheckout -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15]" started-at="2026-07-11T12:37:59 IST" name="tearDown" finished-at="2026-07-11T12:37:59 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a]" started-at="2026-07-12T09:36:23 IST" name="tearDown" finished-at="2026-07-12T09:36:24 IST" duration-ms="446" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCompleteCheckout status=SUCCESS method=CheckoutTest.testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@5ae15] output={null}]]]>
+                <![CDATA[[TestResult name=testCompleteCheckout status=SUCCESS method=CheckoutTest.testCompleteCheckout()[pri:1, instance:com.seleniumui.framework.tests.CheckoutTest@12219f6a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -151,7 +151,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.seleniumui.framework.tests.CheckoutTest -->
       <class name="com.seleniumui.framework.tests.SessionTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" started-at="2026-07-11T12:37:54 IST" name="setUp" finished-at="2026-07-11T12:37:56 IST" duration-ms="2281" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" started-at="2026-07-12T09:36:17 IST" name="setUp" finished-at="2026-07-12T09:36:19 IST" duration-ms="2047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,22 +162,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" started-at="2026-07-11T12:37:56 IST" name="testAccessInventoryWithoutLogin" finished-at="2026-07-11T12:37:57 IST" duration-ms="350" status="PASS">
+        <test-method signature="testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" started-at="2026-07-12T09:36:19 IST" name="testAccessInventoryWithoutLogin" finished-at="2026-07-12T09:36:20 IST" duration-ms="1117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAccessInventoryWithoutLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" started-at="2026-07-11T12:37:57 IST" name="tearDown" finished-at="2026-07-11T12:37:57 IST" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" started-at="2026-07-12T09:36:20 IST" name="tearDown" finished-at="2026-07-12T09:36:20 IST" duration-ms="316" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAccessInventoryWithoutLogin status=SUCCESS method=SessionTest.testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@577536e0] output={null}]]]>
+                <![CDATA[[TestResult name=testAccessInventoryWithoutLogin status=SUCCESS method=SessionTest.testAccessInventoryWithoutLogin()[pri:1, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" started-at="2026-07-11T12:37:59 IST" name="setUp" finished-at="2026-07-11T12:38:01 IST" duration-ms="1981" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" started-at="2026-07-12T09:36:24 IST" name="setUp" finished-at="2026-07-12T09:36:27 IST" duration-ms="2880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,15 +188,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" started-at="2026-07-11T12:38:01 IST" name="testAccessCartWithoutLogin" finished-at="2026-07-11T12:38:02 IST" duration-ms="614" status="PASS">
+        <test-method signature="testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" started-at="2026-07-12T09:36:27 IST" name="testAccessCartWithoutLogin" finished-at="2026-07-12T09:36:27 IST" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAccessCartWithoutLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@577536e0]" started-at="2026-07-11T12:38:02 IST" name="tearDown" finished-at="2026-07-11T12:38:02 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4]" started-at="2026-07-12T09:36:27 IST" name="tearDown" finished-at="2026-07-12T09:36:28 IST" duration-ms="374" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAccessCartWithoutLogin status=SUCCESS method=SessionTest.testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@577536e0] output={null}]]]>
+                <![CDATA[[TestResult name=testAccessCartWithoutLogin status=SUCCESS method=SessionTest.testAccessCartWithoutLogin()[pri:2, instance:com.seleniumui.framework.tests.SessionTest@7f0b93b4] output={null}]]]>
               </value>
             </param>
           </params>
@@ -205,11 +205,11 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.seleniumui.framework.tests.SessionTest -->
       <class name="com.seleniumui.framework.tests.LoginTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:37:42 IST" name="beforeSuite" finished-at="2026-07-11T12:37:42 IST" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:09 IST" name="beforeSuite" finished-at="2026-07-12T09:36:09 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:37:42 IST" name="setUp" finished-at="2026-07-11T12:37:51 IST" duration-ms="8780" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:09 IST" name="setUp" finished-at="2026-07-12T09:36:14 IST" duration-ms="4429" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,22 +220,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:37:51 IST" name="testValidLogin" finished-at="2026-07-11T12:37:53 IST" duration-ms="1459" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:14 IST" name="testValidLogin" finished-at="2026-07-12T09:36:15 IST" duration-ms="1629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:37:53 IST" name="tearDown" finished-at="2026-07-11T12:37:53 IST" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:15 IST" name="tearDown" finished-at="2026-07-12T09:36:16 IST" duration-ms="409" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@590765c4] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:1, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:38:02 IST" name="setUp" finished-at="2026-07-11T12:38:04 IST" duration-ms="1948" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:28 IST" name="setUp" finished-at="2026-07-12T09:36:30 IST" duration-ms="2055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,22 +246,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:38:04 IST" name="testLoginPageLoads" finished-at="2026-07-11T12:38:04 IST" duration-ms="80" status="PASS">
+        <test-method signature="testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:30 IST" name="testLoginPageLoads" finished-at="2026-07-12T09:36:30 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageLoads -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:38:04 IST" name="tearDown" finished-at="2026-07-11T12:38:04 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:30 IST" name="tearDown" finished-at="2026-07-12T09:36:30 IST" duration-ms="227" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageLoads status=SUCCESS method=LoginTest.testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@590765c4] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageLoads status=SUCCESS method=LoginTest.testLoginPageLoads()[pri:3, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.seleniumui.framework.tests.LoginTest@590765c4]" started-at="2026-07-11T12:38:10 IST" name="afterSuite" finished-at="2026-07-11T12:38:10 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.seleniumui.framework.tests.LoginTest@2d5a1588]" started-at="2026-07-12T09:36:36 IST" name="afterSuite" finished-at="2026-07-12T09:36:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
