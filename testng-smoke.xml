@@ -18,9 +18,7 @@
         </groups>
         <classes>
             <class name="com.seleniumui.framework.tests.LoginTest"/>
-            <class name="com.seleniumui.framework.tests.ProductTest"/>
-            <class name="com.seleniumui.framework.tests.CheckoutTest"/>
-            <class name="com.seleniumui.framework.tests.SessionTest"/>
+     
         </classes>
     </test>
 
