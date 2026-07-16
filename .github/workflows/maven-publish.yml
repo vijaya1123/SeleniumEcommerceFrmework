@@ -5,6 +5,7 @@
 # separate terms of service, privacy policy, and support# documentation.
 name: Java CI with Maven
 on:
+
   push:
     branches: [ "main" ]
   pull_request:
@@ -23,10 +24,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean test -PSmoke
-      
-    - name: Upload Test Reports
-     uses: actions/upload-artifact@v4
-     with:
-          name: selenium-reports
-          path: target/surefire-reports
+    - name: Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: selenium-reports
+        path: target/surefire-reports
+    
     
