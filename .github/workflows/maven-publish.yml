@@ -24,17 +24,3 @@ jobs:
     - name: Build with Maven
       run: mvn clean test -PSmoke
     
-  generate-allure-report:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Generate Allure Report
-        uses: ./.github/workflows/action.yml
-        with:
-          allure_results: "allure-results"
-          allure_report: "allure-report"
-          gh_pages: "gh-pages"
-          allure_history: "allure-history"
-          keep_reports: 20
