@@ -12,7 +12,6 @@ on:
     
 jobs:
   build:
-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -24,13 +23,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean test -PSmoke
-
-    - name: Generate Allure report
-      run: |
-          npx allure generate allure-results --clean -o allure-report
-          
-    -  name: Upload Allure report as artifact
-      uses: actions/upload-artifact@v4
-      with:
-           name: allure-report
-           path: allure-report
