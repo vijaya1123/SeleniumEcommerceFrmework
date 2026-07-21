@@ -1,11 +1,41 @@
-# .circleci/config.yml
-
 version: 2.1
 
-jobs:
-  test:
+executors:
+  selenium-executor:
     docker:
-      - image: cimg/openjdk:11.0  
+      # CircleCI's OpenJDK image with Chrome & ChromeDriver
+      - image: cimg/openjdk:17.0-browsers
+    working_directory: ~/project
+
+jobs:
+  build-and-test:
+    executor: selenium-executor
     steps:
       - checkout
-      - run: mvn clean test -PSmoke
+
+      # Cache Maven dependencies for faster builds
+      - restore_cache:
+          keys:
+            - maven-deps-{{ checksum "pom.xml" }}
+            - maven-deps-
+
+      # Install dependencies
+      - run:
+          name: Install Maven Dependencies
+          command: mvn dependency:go-offline
+
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: maven-deps-{{ checksum "pom.xml" }}
+
+      # Run Selenium tests
+      - run:
+          name: Run Selenium Tests
+          command: mvn clean test -PSmoke
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build-and-test
