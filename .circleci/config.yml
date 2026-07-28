@@ -11,7 +11,6 @@ jobs:
     executor: selenium-executor
     steps:
       - checkout
-      
 
       # Cache Maven dependencies for faster builds
       - restore_cache:
