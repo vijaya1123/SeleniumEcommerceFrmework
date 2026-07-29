@@ -1,6 +1,7 @@
 version: 2.1
 
 executors:
+
   selenium-executor:
     docker:
       # CircleCI's OpenJDK image with Chrome & ChromeDriver
